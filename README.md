@@ -1,4 +1,4 @@
-# vcpkg_csofa
+# iausofa
 This is a vcpkg library package based on the C version of IAU SOFA software.
 
 SOFA (Standards Of Fundamental Astronomy) software package is a subroutine library of astronomical basic standards written by IAU. At present, there are a total of 161 subroutines, which are mainly written in Fortran F77 and ANSI C. Each subroutine is placed in a .f file. Its main content includes two aspects: basic vector operations and astronomical basic standards.
