@@ -18,7 +18,7 @@ file(GLOB_RECURSE HEADERS "${SOURCE_DIR}/*.h")
 add_library(iausofa ${SOURCES})
 
 if (BUILD_SHARED_LIBS AND MSVC)
-    target_compile_definitions(iausofa PRIVATE MYLIB_EXPORTS)
+    set_target_properties(iausofa PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS ON)
 endif()
 
 # Add include directories
